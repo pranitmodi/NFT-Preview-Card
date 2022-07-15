@@ -24,15 +24,14 @@ body
 .image
 {
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto;
     width: 100%;
-    max-width: 300px;
+    max-width: 300px; */
 }
 
 .the_nft
 {
     display: block;
-    max-width: 300px;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -67,7 +66,7 @@ body
     cursor: pointer;
   }
   
-  .image:hover .overlay + .eye {
+  .image:hover .eye {
     display: block;
   }
 
@@ -87,6 +86,7 @@ body
 {
     font-family:'Outfit';
     font-size: 20px;
+    cursor: pointer;
     color: hsl(178, 100%, 50%);
     padding-bottom: 20px;
 }
@@ -169,4 +169,5 @@ hr
 .the_name:hover
 {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
