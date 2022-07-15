@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: hsl(217, 54%, 11%);
+}
+.main_card
+{
+    max-width: 300px;
+    margin: 50px auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+.content
+{
+    padding: 20px;
+}
+
+.image
+{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.the_nft
+{
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+
+.eye
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+
+.image:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .image:hover .overlay + .eye {
+    display: block;
+  }
+
+.text
+{
+    padding-top: 20px;
+}
+
+.the_code
+{
+    font-family:'Outfit';
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.the_code:hover
+{
+    font-family:'Outfit';
+    font-size: 20px;
+    color: hsl(178, 100%, 50%);
+    padding-bottom: 20px;
+}
+
+.the_context
+{
+    font-family:'Outfit';
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+.bottom
+{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.eth_logo
+{
+    padding-right: 5px;
+    height: 18px;
+}
+.the_price
+{
+    font-family:'Outfit';
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    padding-right: 85px;
+}
+.clock
+{
+    padding-right: 5px;
+    height: 18px;
+}
+.the_time
+{
+    font-family:'Outfit';
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(215, 51%, 70%);
+}
+
+hr
+{
+    border-color: hsl(215, 32%, 27%);
+    /* border: 0px; */
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-width: 1px;
+}
+
+.created_by
+{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.photo
+{
+    height: 30px;
+    border-radius: 100%;
+    border-width: 5px;
+    border-color: white;
+}
+.creative
+{
+    font-family:'Outfit';
+    font-size: 14px;
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.the_name
+{
+    color: white;
+}
+.the_name:hover
+{
+    color: hsl(178, 100%, 50%);
+}
